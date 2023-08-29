@@ -7,6 +7,7 @@
 
 
 <script>
+  import cardJson from '@/assets/cards.json' 
   import CardList from "@/components/CardList.vue";
   import CardModal from "@/components/CardModal.vue";
   export default {
@@ -24,14 +25,17 @@
       };
     },
     mounted() {
-      fetch('https://tarot-api-3hv5.onrender.com/api/v1/cards/random?n=20')
-        .then((response) => response.json())
-        .then((data) => (this.cards = data.cards))
-        .catch((err) => console.log(err.message));
-
-
+      this.selectRandomCards(20)
     },
     methods: {
+      selectRandomCards(numCards) {
+        const selectedCards = [];
+        for (let i = 0; i < numCards; i++) {
+          const randomIndex = Math.floor(Math.random() * cardJson.cards.length);
+          selectedCards.push(cardJson.cards[randomIndex]);
+        }
+        this.cards = selectedCards;
+      },
       pushCard(card) {
         this.$store.dispatch('addCard', card)
         if (this.$store.getters.cards.length > 9) {
