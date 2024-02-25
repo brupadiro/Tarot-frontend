@@ -1,6 +1,6 @@
 <template>
     <main>
-    <h2>Escoja 3 cartas pensando en sus defectos</h2>
+    <h2>Escoja 3 cartas pensando en tu presente</h2>
       <CardList
         :query="randomCards"
         :reversible="reversible"

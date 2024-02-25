@@ -45,10 +45,7 @@ body {
 body {
   font-family: "Cormorant Garamond", serif;
   color: #fafafa;
-  background: #fff
-  url("https://images.unsplash.com/photo-1454177697940-c43d9f9a7307?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80")
-    no-repeat fixed center/cover;
-  background-blend-mode: luminosity;
+  background: #0c1023
 }
 
 /* Page styling
