@@ -32,11 +32,12 @@
     methods: {
       selectRandomCards(numCards) {
         const selectedCards = [];
+        /*
         for (let i = 0; i < numCards; i++) {
           const randomIndex = Math.floor(Math.random() * cardJson.cards.length);
           selectedCards.push(cardJson.cards[randomIndex]);
-        }
-        this.cards = selectedCards;
+        }*/
+        this.cards = cardJson.cards.filter((card, index) => card.type === 'major').sort(() => Math.random() - 0.5);
       },
       pushCard(card) {
         this.$store.dispatch('addCard', card)
