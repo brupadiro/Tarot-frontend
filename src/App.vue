@@ -43,10 +43,80 @@ body {
 }
 
 body {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Afacad", serif!important;
   color: #fafafa;
-  background: #0c1023
+  background: #0c1023;
+background: url('./assets/images/background.png') no-repeat center center fixed;
+background-size: cover;
 }
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* Ajusta la opacidad según sea necesario */
+  z-index: 1; /* Asegúrate de que la capa oscura esté por encima del fondo pero debajo del contenido */
+}
+#app {
+  position: relative;
+  z-index: 2; /* Asegúrate de que el contenido esté por encima de la capa oscura */
+}
+select, input {
+    height: 48px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border-radius: 0.5rem;
+    border: none !important;
+    font-family: 'Afacad'!important;
+    font-weight: bold;
+}
+.toggle-sex{
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.buttonNext{
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border-radius: 15px;
+    height: 48px;
+    width: 100%;
+    border: none !important;
+    background: #4e0e70;
+    font-family: Afacad !important;
+    font-size: 20px;
+    font-weight: 700;
+    cursor:pointer;
+    color:white;
+}
+
+.buttonNext:disabled {
+  background: #cccccc;
+  cursor: default;
+}
+
+.toggle-sex button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    outline: none;
+    width: 50%;
+    height: 48px;
+    font-family: 'Afacad'!important;
+    font-weight: 900;
+    font-size: 20px;
+    margin:0!important;
+}
+.toggle-sex button:first-child{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.toggle-sex button:last-child{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 
 /* Page styling
    ====================================================== */
@@ -63,7 +133,7 @@ main {
 h1,
 h2,
 h3 {
-  font-family: "Cardo", serif;
+  font-family: "Afacad", serif;
 }
 
 /* Component styling
