@@ -5,6 +5,7 @@ import thirdStep from '@/pages/thirdStep/indexPage.vue'
 import fourthStep from '@/pages/fourthStep/indexPage.vue'
 import finalStep from '@/pages/finalStep/indexPage.vue'
 import resultPage from '@/pages/result/indexPage.vue'
+import checkout from '@/pages/checkout/index.vue'
 
 const routes = [
   {
@@ -12,6 +13,13 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  {
+    path: '/checkout',
+    name: 'checkout',
+    component: checkout
+  },
+
+
   {
     path: '/secondStep',
     name: 'secondStep',

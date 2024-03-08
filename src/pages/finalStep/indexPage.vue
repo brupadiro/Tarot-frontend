@@ -16,7 +16,7 @@ export default {
     methods:{
         setSex(sex){
             this.$store.dispatch('setSex',sex)
-            this.$router.push('/result')
+            this.$router.push('/checkout')
 
         }
     }
