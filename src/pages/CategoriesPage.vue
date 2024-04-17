@@ -82,7 +82,7 @@ a {
 @media (min-width: 769px) {
   .category-card {
     width: calc(30vmin / 1.4);
-    height: 30vmin;
+    height: 39vmin;
   }
 }
 

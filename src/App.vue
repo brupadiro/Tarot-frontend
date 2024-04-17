@@ -58,6 +58,7 @@ body::before {
   bottom: 0;
   background: rgba(0, 0, 0, 0.7); /* Ajusta la opacidad según sea necesario */
   z-index: 1; /* Asegúrate de que la capa oscura esté por encima del fondo pero debajo del contenido */
+  height:300%;
 }
 #app {
   position: relative;

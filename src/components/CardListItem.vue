@@ -160,7 +160,7 @@ input:checked + label .card-front {
   .static-card {
     margin: 1em;
     width: calc(30vmin / 1.4);
-    height: 30vmin;
+    height: 39vmin;
   }
 }
 </style>
