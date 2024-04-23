@@ -10,7 +10,7 @@
             <h4>Seleccione su horóscopo:</h4>
             <select v-model="horoscope" name="horoscope" @change="setHoroscope($event.target.value)"
                 class="horoscope-select">
-                <option value="">No lo sé</option>
+                <option value="N/A">No lo sé</option>
                 <option value="aries">Aries</option>
                 <option value="tauro">Tauro</option>
                 <option value="geminis">Géminis</option>

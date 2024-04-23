@@ -6,7 +6,7 @@
 
         <div class="cards-container">
             <div class="v-card">
-                <div class="v-card-title">Cartas de Calidad</div>
+                <div class="v-card-title">Cartas del pasado</div>
                 <hr>
                 <div class="v-card-content">
                     <CardList :cards="qualityCards" :reversible="reversible" @open-card-modal="toggleModal" />
@@ -14,7 +14,7 @@
             </div>
 
             <div class="v-card">
-                <div class="v-card-title">Cartas de Defecto</div>
+                <div class="v-card-title">Cartas de presente</div>
                 <hr>
                 <div class="v-card-content">
                     <CardList :cards="defectCards" :reversible="reversible" @open-card-modal="toggleModal" />
@@ -22,7 +22,7 @@
             </div>
 
             <div class="v-card">
-                <div class="v-card-title">Cartas de Futuro</div>
+                <div class="v-card-title">Cartas de futuro</div>
                 <hr>
                 <div class="v-card-content">
                     <CardList :cards="futureCards" :reversible="reversible" @open-card-modal="toggleModal" />
@@ -32,7 +32,7 @@
 
         <section class="interpretation">
             <h3>Interpretación</h3>
-            <p v-if="result">{{ result }}</p>
+            <p v-if="result">{{ result }}.Recuerda que los pensamientos positivos favorecen la atracción de cosas positivas. Y si quieres una consulta personalizada !llama a mi Linea de Mancias, disponible 24 horas todos los días, incluso los festivos!</p>
             <div v-else-if="!result" class="loader"></div>
         </section>
     </main>

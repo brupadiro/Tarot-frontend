@@ -78,7 +78,11 @@ label {
   transform: rotateY(0deg);
   transition: transform 200ms linear;
 }
-
+@media(max-width:500px){
+  .card-back {
+    height: 54vmin!important;
+  }
+}
 input:checked + label .card-back {
   transform: rotateY(180deg);
 }
@@ -91,12 +95,12 @@ input:disabled + label .card-back {
   width: 100%;
   height: 100%;
   border: #e7e7e7 solid 2px;
-  transform: rotate(180deg);
+  /*transform: rotate(180deg);*/
   background-size: 200%;
   background-repeat: no-repeat;
   opacity: 1;
   transition: opacity 1ms linear 100ms;
-  animation: reverseCard 1s steps(2, jump-none) infinite;
+  /*animation: reverseCard 1s steps(2, jump-none) infinite;*/
   animation-play-state: paused;
 }
 
