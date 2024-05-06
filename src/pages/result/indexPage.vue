@@ -32,7 +32,7 @@
 
         <section class="interpretation">
             <h3>Interpretación</h3>
-            <p v-if="result">{{ result }}.Recuerda que los pensamientos positivos favorecen la atracción de cosas positivas. Y si quieres una consulta personalizada !llama a mi Linea de Mancias, disponible 24 horas todos los días, incluso los festivos!</p>
+            <p v-if="result">{{ result }}.Recuerda que los pensamientos positivos favorecen la atracción de cosas positivas. Y si quieres una consulta personalizada, ¡llama a mi Línea de Mancias!, disponible 24 horas todos los días, incluso los festivos!</p>
             <div v-else-if="!result" class="loader"></div>
         </section>
     </main>

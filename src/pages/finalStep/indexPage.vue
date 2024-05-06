@@ -4,8 +4,8 @@
         <div class="user-info">
             <h4>Usted es:</h4>
             <div class="toggle-sex">
-                <button :class="{'active': sex === 'Man'}" @click="setSex('Man')">Hombre</button>
-                <button :class="{'active': sex === 'Woman'}" @click="setSex('Woman')">Mujer</button>
+                <button :class="{'active': sex === 'Hombre'}" @click="setSex('Hombre')">Hombre</button>
+                <button :class="{'active': sex === 'Mujer'}" @click="setSex('Mujer')">Mujer</button>
             </div>
             <h4>Seleccione su horóscopo:</h4>
             <select v-model="horoscope" name="horoscope" @change="setHoroscope($event.target.value)"
