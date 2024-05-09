@@ -38,8 +38,10 @@
           selectedCards.push(cardJson.cards[randomIndex]);
         }*/
         this.cards = cardJson.cards.filter((card, index) => card.type === 'major').sort(() => Math.random() - 0.5);
+        console.log(this.cards)
       },
       pushCard(card) {
+        console.log("card")
         this.$store.dispatch('addCard', card)
         if (this.$store.getters.cards.length > 9) {
           this.$router.push('/secondStep')

@@ -23,7 +23,7 @@
     }, {
         "type": "major",
         "name_short": "ar19",
-        "name": "El sol",
+        "name": "El Sol",
         "value": "19",
         "value_int": 19,
         "meaning_up": "Material happiness, fortunate marriage, contentment.",
@@ -62,7 +62,7 @@
     }, {
         "type": "major",
         "name_short": "ar01",
-        "name": "El mago",
+        "name": "El Mago",
         "value": "1",
         "value_int": 1,
         "meaning_up": "Skill, diplomacy, address, subtlety; sickness, pain, loss, disaster, snares of enemies; self-confidence, will; the Querent, if male.",
@@ -111,7 +111,7 @@
     }, {
         "type": "major",
         "name_short": "ar04",
-        "name": "El emperador",
+        "name": "El Emperador",
         "value": "4",
         "value_int": 4,
         "meaning_up": "Stability, power, protection, realization; a great person; aid, reason, conviction; also authority and will.",
@@ -130,7 +130,7 @@
     }, {
         "type": "major",
         "name_short": "ar17",
-        "name": "La estrella",
+        "name": "La Estrella",
         "value": "17",
         "value_int": 17,
         "meaning_up": "Loss, theft, privation, abandonment; another reading says-hope and bright prospects,",
@@ -139,7 +139,7 @@
     }, {
         "type": "major",
         "name_short": "ar13",
-        "name": "La muerte",
+        "name": "La Muerte",
         "value": "13",
         "value_int": 13,
         "meaning_up": "End, mortality, destruction, corruption also, for a man, the loss of a benefactor for a woman, many contrarieties; for a maid, failure of marriage projects.",
@@ -208,7 +208,7 @@
     }, {
         "type": "major",
         "name_short": "ar21",
-        "name": "El mundo",
+        "name": "El Mundo",
         "value": "21",
         "value_int": 21,
         "meaning_up": "Assured success, recompense, voyage, route, emigration, flight, change of place.",
@@ -217,7 +217,7 @@
     }, {
         "type": "major",
         "name_short": "ar10",
-        "name": "La rueda de la fortuna",
+        "name": "La Rueda de la Fortuna",
         "value": "10",
         "value_int": 10,
         "meaning_up": "Destiny, fortune, success, elevation, luck, felicity.",
@@ -226,7 +226,7 @@
     }, {
         "type": "major",
         "name_short": "ar16",
-        "name": "La torre",
+        "name": "La Torre",
         "value": "16",
         "value_int": 16,
         "meaning_up": "Misery, distress, indigence, adversity, calamity, disgrace, deception, ruin. It is a card in particular of unforeseen catastrophe.",
@@ -285,7 +285,7 @@
     }, {
         "type": "major",
         "name_short": "ar00",
-        "name": "El loco",
+        "name": "El Loco",
         "value": "ZERO",
         "value_int": 0,
         "meaning_up": "Folly, mania, extravagance, intoxication, delirium, frenzy, bewrayment.",
@@ -304,7 +304,7 @@
     }, {
         "type": "major",
         "name_short": "ar09",
-        "name": "El hermitaño",
+        "name": "El Ermitaño",
         "value": "9",
         "value_int": 9,
         "meaning_up": "Prudence, circumspection; also and especially treason, dissimulation, roguery, corruption.",
@@ -313,7 +313,7 @@
     }, {
         "type": "major",
         "name_short": "ar05",
-        "name": "El sacerdote",
+        "name": "El Sacerdote",
         "value": "5",
         "value_int": 5,
         "meaning_up": "Marriage, alliance, captivity, servitude; by another account, mercy and goodness; inspiration; the man to whom the Querent has recourse.",
@@ -441,7 +441,7 @@
     }, {
         "type": "major",
         "name_short": "ar18",
-        "name": "La luna",
+        "name": "La Luna",
         "value": "18",
         "value_int": 18,
         "meaning_up": "Hidden enemies, danger, calumny, darkness, terror, deception, occult forces, error.",
@@ -490,7 +490,7 @@
     }, {
         "type": "major",
         "name_short": "ar07",
-        "name": "La carroza",
+        "name": "La Carroza",
         "value": "7",
         "value_int": 7,
         "meaning_up": "Succour, providence also war, triumph, presumption, vengeance, trouble.",
@@ -499,7 +499,7 @@
     }, {
         "type": "major",
         "name_short": "ar20",
-        "name": "The Last Judgment",
+        "name": "El Juicio",
         "value": "20",
         "value_int": 20,
         "meaning_up": "Change of position, renewal, outcome. Another account specifies total loss though lawsuit.",
@@ -508,7 +508,7 @@
     }, {
         "type": "major",
         "name_short": "ar06",
-        "name": "Los amantes",
+        "name": "Los Amantes",
         "value": "6",
         "value_int": 6,
         "meaning_up": "Attraction, love, beauty, trials overcome.",
@@ -517,7 +517,7 @@
     }, {
         "type": "major",
         "name_short": "ar15",
-        "name": "El diablo",
+        "name": "El Diablo",
         "value": "15",
         "value_int": 15,
         "meaning_up": "Ravage, violence, vehemence, extraordinary efforts, force, fatality; that which is predestined but is not for this reason evil.",
@@ -575,7 +575,7 @@
     }, {
         "type": "major",
         "name_short": "ar08",
-        "name": "La fuerza",
+        "name": "La Fuerza",
         "value": "8",
         "value_int": 8,
         "meaning_up": "Power, energy, action, courage, magnanimity; also complete success and honours.",
@@ -634,7 +634,7 @@
     }, {
         "type": "major",
         "name_short": "ar14",
-        "name": "La templanza",
+        "name": "La Templanza",
         "value": "14",
         "value_int": 14,
         "meaning_up": "Economy, moderation, frugality, management, accommodation.",
@@ -683,7 +683,7 @@
     }, {
         "type": "major",
         "name_short": "ar11",
-        "name": "La justicia",
+        "name": "La Justicia",
         "value": "11",
         "value_int": 11,
         "meaning_up": "Equity, rightness, probity, executive; triumph of the deserving side in law.",
@@ -702,7 +702,7 @@
     }, {
         "type": "major",
         "name_short": "ar12",
-        "name": "El colgado",
+        "name": "El Colgado",
         "value": "12",
         "value_int": 12,
         "meaning_up": "Wisdom, circumspection, discernment, trials, sacrifice, intuition, divination, prophecy.",
