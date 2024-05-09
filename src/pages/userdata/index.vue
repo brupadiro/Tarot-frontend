@@ -46,6 +46,10 @@
                 this.checkCanContinue();
             }
         },
+        mounted(){
+        this.$nextTick(() => window.scrollTo(0, 0));
+        },
+
         methods: {
             setName(name) {
                 this.name = name;

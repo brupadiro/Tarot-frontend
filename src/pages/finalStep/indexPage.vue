@@ -70,6 +70,9 @@
             }
 
         },
+        mounted(){
+        this.$nextTick(() => window.scrollTo(0, 0));
+        },
         methods: {
             setSex(sex) {
                 this.sex = sex;

@@ -14,7 +14,7 @@
             </div>
 
             <div class="v-card">
-                <div class="v-card-title">Cartas de presente</div>
+                <div class="v-card-title">Cartas del presente</div>
                 <hr>
                 <div class="v-card-content">
                     <CardList :cards="defectCards" :reversible="reversible" @open-card-modal="toggleModal" />
@@ -22,7 +22,7 @@
             </div>
 
             <div class="v-card">
-                <div class="v-card-title">Cartas de futuro</div>
+                <div class="v-card-title">Cartas del futuro</div>
                 <hr>
                 <div class="v-card-content">
                     <CardList :cards="futureCards" :reversible="reversible" @open-card-modal="toggleModal" />

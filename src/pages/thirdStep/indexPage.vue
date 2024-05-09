@@ -28,8 +28,9 @@
         reversible:true,
       };
     },
-    mounted() {
-    },
+    mounted(){
+        this.$nextTick(() => window.scrollTo(0, 0));
+        },
     methods: {
       pushCard(card) {
         this.$store.dispatch('addDefectCard',card)
