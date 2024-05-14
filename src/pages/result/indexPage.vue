@@ -1,7 +1,7 @@
 <template>
     <main class="tarot-reading">
         <section class="intro">
-            <h2>Lectura de Tarot para ti</h2>
+            <h2>Su lectura de tarot interactiva</h2>
         </section>
 
         <div class="cards-container">

@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h2 class-="text-center">Escoja 10 cartas de las 22 presentes</h2>
+    <h2 class-="text-center">Escoja 10 de las 22 cartas</h2>
 
     <CardList :query="randomCards" :reversible="reversible" @card-click="pushCard" @open-card-modal="toggleModal"
       :cardList="selectedCards" :cards="cardsList" />
