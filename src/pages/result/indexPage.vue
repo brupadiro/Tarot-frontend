@@ -32,7 +32,11 @@
 
         <section class="interpretation">
             <h3>Interpretación</h3>
-            <p v-if="result">{{ result }}.<br>Por último, ten en la mente el eterno consejo de Luna, optimista e inspirador: los pensamientos positivos favorecen la atracción de cosas positivas. <br><br>Y si quieres una consulta personalizada, en el equipo privado de Luna están exclusivamente los mejores; ¡llama a su Línea de Mancias, disponible 24 horas todos los días, incluso los festivos!!</p>
+            <div v-if="result">
+                <p>{{ result }}</p>
+                <p>Por último, ten en la mente el eterno consejo de Luna, con un enfoque optimista e inspirador: los pensamientos positivos favorecen la atracción de cosas positivas.</p>
+                <p>Y si quieres una consulta personalizada, en el equipo privado de Luna están exclusivamente los mejores; ¡llama a su Línea de Mancias, disponible 24 horas todos los días, incluso festivos!</p>
+            </div>
             <div v-else-if="!result" class="loader"></div>
         </section>
     </main>
