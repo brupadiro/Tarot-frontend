@@ -2,7 +2,7 @@
     <main>
         <h2>Su tirada está siendo interpretada...</h2>
         <div class="user-info">
-            <h4>Nombre:</h4>
+            <h4>Nombre o iniciales:</h4>
             <input type="text" v-model="name" name="name" @change="setName($event.target.value)"
                 class="user-input">
             <h4>Email:</h4>
