@@ -3,14 +3,16 @@
         <h2>Su tirada está siendo interpretada...</h2>
         <div class="user-info">
             <h4>Nombre o iniciales:</h4>
-            <input type="text" v-model="name" name="name" @change="setName($event.target.value)"
-                class="user-input">
+            <input type="text" v-model="name" name="name" @change="setName($event.target.value)" class="user-input">
             <h4>Email:</h4>
-            <input type="email" v-model="email" name="email" @change="setEmail($event.target.value)"
-                class="user-input">
+            <input type="email" v-model="email" name="email" @change="setEmail($event.target.value)" class="user-input">
             <h4>País:</h4>
             <input type="text" v-model="country" name="country" @change="setCountry($event.target.value)"
                 class="user-input">
+            <div class="input-phone">
+                <h4>Telefono:</h4>
+                <phone-input  @phone="phone = $event" defaultCountry="ES"></phone-input>
+            </div>
             <div>
                 <input type="checkbox" id="terms" v-model="acceptedTerms">
                 <label for="terms">Acepto los términos y condiciones</label>
@@ -22,11 +24,18 @@
     </main>
 </template>
 <script>
-    export default {
+ import { PhoneInput } from '@lbgm/phone-number-input';
+ import '@lbgm/phone-number-input/dist/style.css';
+
+export default {
+        components: {
+            PhoneInput
+        },
         data() {
             return {
                 name: '',
                 email: '',
+                phone:'',
                 country: '',
                 acceptedTerms: false,
                 canContinue: false
@@ -46,8 +55,8 @@
                 this.checkCanContinue();
             }
         },
-        mounted(){
-        this.$nextTick(() => window.scrollTo(0, 0));
+        mounted() {
+            this.$nextTick(() => window.scrollTo(0, 0));
         },
 
         methods: {
@@ -61,11 +70,11 @@
                 this.country = country;
             },
             checkCanContinue() {
-                this.canContinue = this.name && this.email && this.country && this.acceptedTerms;
+                this.canContinue = this.name && this.email && this.country && this.phone && this.acceptedTerms;
             },
             continueToResults() {
                 if (this.canContinue) {
-                   this.$router.push('/result')
+                    this.$router.push('/result')
                 }
             }
         }
@@ -83,4 +92,16 @@
         margin-bottom: 1rem;
         border: 1px solid #ccc;
     }
+    .input-phone .baseinput-core {
+        padding:0!important;
+    }
+    .input-phone .baseinput-core {
+        padding:0!important;
+    }
+    .input-phone .baseinput-core input {
+        box-shadow:none!important;
+        color:black!important;
+    }
+
+
 </style>
